@@ -1,0 +1,49 @@
+From c6e80f73ce154b4b542ee8918002d46c9d979d27 Mon Sep 17 00:00:00 2001
+From: coderDev <deepesh.bhati@dotsquares.com>
+Date: Thu, 3 Jul 2014 12:06:34 +0530
+Subject: [PATCH 1/2] fist branch demo
+
+---
+ one.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/one.txt b/one.txt
+index f717b57..317184a 100644
+--- a/one.txt
++++ b/one.txt
+@@ -1 +1,4 @@
+ one.txt for master code demo
++
++
++test with branch "b1"
+\ No newline at end of file
+-- 
+1.9.3
+
+
+From 9a98e815e2c13183a0ea1b73a9ea9b60f0df29f3 Mon Sep 17 00:00:00 2001
+From: coderDev <deepesh.bhati@dotsquares.com>
+Date: Thu, 3 Jul 2014 12:12:55 +0530
+Subject: [PATCH 2/2] Update some text in existing branch b1
+
+---
+ one.txt | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/one.txt b/one.txt
+index 317184a..b848aaa 100644
+--- a/one.txt
++++ b/one.txt
+@@ -1,4 +1,6 @@
+ one.txt for master code demo
+ 
+ 
+-test with branch "b1"
+\ No newline at end of file
++test with branch "b1"
++
++update some text in "b1"
+\ No newline at end of file
+-- 
+1.9.3
+

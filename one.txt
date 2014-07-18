@@ -1,6 +1,2 @@
 one.txt for master code demo
 
-
-test with branch "b1"
-
-update some text in "b1"
